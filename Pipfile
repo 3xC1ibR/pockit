@@ -3,10 +3,20 @@ url = 'https://pypi.python.org/simple'
 verify_ssl = true
 name = 'pypi'
 
-
 [packages]
+opencv-python = "*"
+opencv-contrib-python = "*"
+mediapipe-silicon = "*"
+numpy = "*"
+rich = "*"
+jupyterlab = "*"
+matplotlib = "*"
+tensorflow = "*"
+Pillow = "==9.5.0"
+#tensorflow = "==1.15.0"
 
 [requires]
+#python_version = '3.7'
 python_version = '3.11'
 
 [dev-packages]
